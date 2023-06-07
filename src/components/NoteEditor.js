@@ -37,7 +37,7 @@ const NoteEditor = () => {
             </div>
             <Editor
                 onInit={(evt, editor) => (editorRef.current = editor)}
-                apiKey={process.env.REACT_APP_TINY_KEY}
+                apiKey="6bjtcd84ju2i6oqrnj4ekfwr6o26ws06n8z22pvca38r0dqf"
                 initialValue=""
                 init={{
                     height: 300,
