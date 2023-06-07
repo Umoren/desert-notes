@@ -20,7 +20,7 @@ export const saveAsImage = async (noteContent, bgColor, textColor, fontSize, fon
 
     // Create a header
     const header = document.createElement('h1');
-    header.innerText = `🏝️ Desert Island Meeting Notes - ${new Date().toLocaleString()}`;
+    header.innerText = `🏝️ Serenity Scribe - ${new Date().toLocaleString()}`;
     header.style.fontFamily = `${fontFamily}, sans-serif`;
     header.style.fontSize = fontSize;
     header.style.marginBottom = '1rem';

@@ -25,7 +25,7 @@ git clone <repository-link>
 ```
 2. Navigate into the project directory.
 ```bash
-cd <project-name>
+cd serenity-scribe
 ```
 3. Install the dependencies.
 ```bash
@@ -53,6 +53,3 @@ yarn start
 
 This project is open for contributions. Please fork the repository and create a pull request with your changes.
 
-## License
-
-MIT License
