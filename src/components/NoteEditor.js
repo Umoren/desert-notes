@@ -32,7 +32,7 @@ const NoteEditor = () => {
     return (
         <div className="p-4 bg-white rounded shadow">
             <div className="mb-4 text-gray-800">
-                <h2 className="text-xl font-bold">What do you note today?</h2>
+                <h2 className="text-xl font-bold">What note do you want to capture today?</h2>
                 <p className="text-sm">{new Date().toLocaleString()}</p>
             </div>
             <Editor
